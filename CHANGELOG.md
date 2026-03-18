@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.1.0-alpha.29](https://github.com/openfoodfacts/openfoodfacts-js/compare/v2.0.0-alpha.29...v2.1.0-alpha.29) (2026-03-18)
+
+
+### Features
+
+* add `nutriscore_score` to `FACETS_SORT_OPTIONS` ([#779](https://github.com/openfoodfacts/openfoodfacts-js/issues/779)) ([bab4485](https://github.com/openfoodfacts/openfoodfacts-js/commit/bab44857e9a7bb739b77e9e676e866a76da1e78c))
+* Add and export KnowledgePanels type ([#801](https://github.com/openfoodfacts/openfoodfacts-js/issues/801)) ([fe9f77b](https://github.com/openfoodfacts/openfoodfacts-js/commit/fe9f77b624ebfb1f44c6ef323a134d35e7b21092))
+* Add getAttributeGroups method to v3 ([d81ebcf](https://github.com/openfoodfacts/openfoodfacts-js/commit/d81ebcf9071e24c1ab8e4dabbe50f00d329b0fbc))
+* Add getStats method to nutripatrol ([#780](https://github.com/openfoodfacts/openfoodfacts-js/issues/780)) ([f49e749](https://github.com/openfoodfacts/openfoodfacts-js/commit/f49e749f11872a4a46c82f3444660c447703d918))
+* add support for /api/v3/current-user/permissions endpoint ([#814](https://github.com/openfoodfacts/openfoodfacts-js/issues/814)) ([6a4e5cc](https://github.com/openfoodfacts/openfoodfacts-js/commit/6a4e5ccfc62336bc22a3c84d261bbc63b77f649c))
+* add support for structured packaging data (V3) ([#785](https://github.com/openfoodfacts/openfoodfacts-js/issues/785)) ([70f93f2](https://github.com/openfoodfacts/openfoodfacts-js/commit/70f93f255362e17ba62835e11a07e8b99537b666))
+* Expose open prices API endpoints ([#811](https://github.com/openfoodfacts/openfoodfacts-js/issues/811)) ([f8c2cf3](https://github.com/openfoodfacts/openfoodfacts-js/commit/f8c2cf382ceebc608605a0a60aee423969149839))
+* taxonomy based on product type ([45b8d56](https://github.com/openfoodfacts/openfoodfacts-js/commit/45b8d5678d5d0ce28ce2a4685779169509940e6d))
+
+
+### Bug Fixes
+
+* Update return type of getProductAttributes to ProductAttributeGroup[] ([6f1ba74](https://github.com/openfoodfacts/openfoodfacts-js/commit/6f1ba744899898f6ffe725e3ccab5e2baa6b7413))
+* **v3:** Mark packaging field as optional ([#786](https://github.com/openfoodfacts/openfoodfacts-js/issues/786)) ([26c3bfe](https://github.com/openfoodfacts/openfoodfacts-js/commit/26c3bfe0d076d7f5b69fab6e957f904c5508b19d))
+
 ## [2.0.0-alpha.29](https://github.com/openfoodfacts/openfoodfacts-js/compare/v2.0.0-alpha.28...v2.0.0-alpha.29) (2026-02-09)
 
 
